@@ -13,10 +13,12 @@ html {
 
 body {
   margin: 0;
+  max-width: 700px;
 }
 
 img {
   max-width: 100%;
+  margin: 0;
 }
 
 figure {
@@ -24,6 +26,46 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
+  border: solid grey 2px;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.film-title{
+  float: left;
+  width: 65%;
+  margin: 0;
+}
+.film-poster{
+  display: inline-block;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  position: relative;
+
+
+}
+.film-description{
+  margin: 0;
+  clear:none;
+
+}
+.film-detail{
+  
+}
+.action-watch-later{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+}
+.action-like{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: red;
+
 }
