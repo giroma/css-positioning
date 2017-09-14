@@ -17,8 +17,9 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   margin: 0;
+
 }
 
 figure {
@@ -30,31 +31,27 @@ figure {
   margin: 40px auto;
   border: solid grey 2px;
   padding: 10px;
-  overflow: hidden;
   position: relative;
 }
 .film-title{
-  float: left;
-  width: 65%;
   margin: 0;
 }
 .film-poster{
   display: inline-block;
   width: 30%;
-  float: left;
-  margin-right: 10px;
-  clear: both;
   position: relative;
 
 
 }
 .film-description{
   margin: 0;
-  clear:none;
 
 }
-.film-detail{
-  
+.film-details{
+  float: right;
+  width: 70%;
+  padding-left: 10px;
+
 }
 .action-watch-later{
   position: absolute;
